@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/rest-api-node-mysql/static/css/main.31d6cfe0.css",
+    "main.js": "/rest-api-node-mysql/static/js/main.3227ba69.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/rest-api-node-mysql/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/rest-api-node-mysql/index.html",
+    "main.3227ba69.js.map": "/rest-api-node-mysql/static/js/main.3227ba69.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/rest-api-node-mysql/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.3227ba69.js"
+  ]
+}
