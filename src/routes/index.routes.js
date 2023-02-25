@@ -5,7 +5,7 @@ const router = Router();
 router.get('/ping',ping)
 
 router.get('/',(req,res)=>{
-    res.send('This is the initial path of my application')
+    res.send('This is the initial path of my application UPDATE')
 })
 
 export default router;
