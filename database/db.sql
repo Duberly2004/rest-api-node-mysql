@@ -17,6 +17,4 @@ INSERT INTO employes VALUES
     (3,'Sam',2500),
     (4,'Max',1500);
 
-    -- comentario
-
 SELECT * FROM employes;
