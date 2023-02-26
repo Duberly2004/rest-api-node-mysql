@@ -1,0 +1,27 @@
+{
+  "name": "rest-api-du",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev":"nodemon src /index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duberly2004/rest-api-node-mysql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duberly2004/rest-api-node-mysql/issues"
+  },
+  "homepage": "https://github.com/Duberly2004/rest-api-node-mysql#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.1.2"
+  }
+}

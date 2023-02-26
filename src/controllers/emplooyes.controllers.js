@@ -8,6 +8,7 @@ export const getAllEmployees = async (req,res) => {
         res.send(rows)
     } catch (error) {
         // El código de estado HTTP 500 indica : que ocurrio un error en el servidor interno de nodejs 
+        console.log(error)
         return res.status(500).json({
             message:'Something goes wrong '
         })
@@ -24,6 +25,7 @@ export const getEmployee = async (req,res)=>{
         })
         res.send(rows[0])       
     } catch (error) {
+        console.log(error)
         // El código de estado HTTP 500 indica : que ocurrio un error en el servidor interno de nodejs 
         return res.status(500).json({
             message:'Something goes wrong '
@@ -42,6 +44,7 @@ export const createEmployes =async (req,res) => {
             salary
         })
     } catch (error) {
+        console.log(error)
         // El código de estado HTTP 500 indica : que ocurrio un error en el servidor interno de nodejs 
         return res.status(500).json({
             message:'Something goes wrong '
@@ -59,6 +62,7 @@ export const deleteEmployes = async (req,res) => {
         })
         res.sendStatus(204);//Esto significa que todo fue bien por no le estoy respondiendo nada al cliente 
     } catch (error) {
+        console.log(error)
         // El código de estado HTTP 500 indica : que ocurrio un error en el servidor interno de nodejs 
         return res.status(500).json({
             message:'Something goes wrong '
@@ -80,6 +84,7 @@ export const updateEmployes = async (req,res) =>{
         const [rows] =await pool.query('SELECT * FROM employes WHERE id = ?',[id]);
         res.send(rows[0]);
     } catch (error) {
+        console.log(error)
         return res.status(500).json({
             message:'Something goes wrong '
         })  
