@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/rest-api-node-mysql/static/css/main.073c9b0a.css",
-    "main.js": "/rest-api-node-mysql/static/js/main.6f677d45.js",
+    "main.css": "/rest-api-node-mysql/static/css/main.31d6cfe0.css",
+    "main.js": "/rest-api-node-mysql/static/js/main.5b8c4fe6.js",
     "static/js/787.c4e7f8f9.chunk.js": "/rest-api-node-mysql/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/logo.svg": "/rest-api-node-mysql/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/rest-api-node-mysql/index.html",
-    "main.073c9b0a.css.map": "/rest-api-node-mysql/static/css/main.073c9b0a.css.map",
-    "main.6f677d45.js.map": "/rest-api-node-mysql/static/js/main.6f677d45.js.map",
+    "main.5b8c4fe6.js.map": "/rest-api-node-mysql/static/js/main.5b8c4fe6.js.map",
     "787.c4e7f8f9.chunk.js.map": "/rest-api-node-mysql/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6f677d45.js"
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.5b8c4fe6.js"
   ]
 }
