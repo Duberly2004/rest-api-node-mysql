@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/rest-api-node-mysql/static/css/main.d1e9c7c0.css",
-    "main.js": "/rest-api-node-mysql/static/js/main.d5d0ed5e.js",
+    "main.js": "/rest-api-node-mysql/static/js/main.93001900.js",
     "static/media/kakashi-sensei.png": "/rest-api-node-mysql/static/media/kakashi-sensei.67a136fb41feaa83840f.png",
     "static/media/naruto.png": "/rest-api-node-mysql/static/media/naruto.2706ba2064082934d301.png",
     "static/media/menu-hamburguesa.png": "/rest-api-node-mysql/static/media/menu-hamburguesa.be184b7d83e19015d6eb.png",
     "index.html": "/rest-api-node-mysql/index.html",
     "main.d1e9c7c0.css.map": "/rest-api-node-mysql/static/css/main.d1e9c7c0.css.map",
-    "main.d5d0ed5e.js.map": "/rest-api-node-mysql/static/js/main.d5d0ed5e.js.map"
+    "main.93001900.js.map": "/rest-api-node-mysql/static/js/main.93001900.js.map"
   },
   "entrypoints": [
     "static/css/main.d1e9c7c0.css",
-    "static/js/main.d5d0ed5e.js"
+    "static/js/main.93001900.js"
   ]
 }
