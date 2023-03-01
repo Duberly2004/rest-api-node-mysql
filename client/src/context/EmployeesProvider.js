@@ -1,4 +1,5 @@
 import { EmployeeContext } from "./EmployeesContext";
+import swal from "sweetalert";
 import {
     createEmployeeRequest,
     getEmployeesRequest,
@@ -24,7 +25,7 @@ export const EmployeeContextProvider = ({children}) =>{
     const createEmployee = async (employee) =>{
         try {
             await createEmployeeRequest(employee);
-            alert('Employee registered successfully')
+            swal("Created Successfully!");
         } catch (error) {
             alert("ERROR creating employee")
             console.error(error)
@@ -47,7 +48,11 @@ export const EmployeeContextProvider = ({children}) =>{
            await deleteEmployeeRequest(id);
            setEmployees(employees.filter((employee) => employee.id !== id));
            setTimeout(()=>{
-            alert('Employee deleted succesfully')
+            swal({
+                title: "Deleted succesfully",
+                icon: "success",
+                button: "OK",
+              });
         }, 300);
            
         } catch (error) {
@@ -56,7 +61,12 @@ export const EmployeeContextProvider = ({children}) =>{
 
     const updateEmployee = async (id,EmployeeUpdated) =>{
         try {
-            await updateEmployeeRequest(id,EmployeeUpdated)
+            await updateEmployeeRequest(id,EmployeeUpdated);
+            swal({
+                title: "Update successfully",
+                icon: "success",
+                button: "OK",
+              });
         } catch (error) {
             console.error(error)
         }
@@ -69,9 +79,7 @@ export const EmployeeContextProvider = ({children}) =>{
             
         } catch (error) {
             console.log(error)
-            
         }
-
     }
 
     return(
