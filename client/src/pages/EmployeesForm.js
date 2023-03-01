@@ -43,14 +43,14 @@ function EmployeesForm() {
                   <Formik 
                     initialValues={employees}
                     enableReinitialize={true}
-                    onSubmit={ async (values,actions)=>{
+                    onSubmit={ async (values)=>{
 
                       if(params.id){
                         const editEmployee = async()=>await updateEmployee(params.id,values);
                         editEmployee();
                       }else{
-                        const insertEmploye = async()=>await createEmployee(values);        
-                        insertEmploye();                
+                        const insertEmployee = async()=>await createEmployee(values);        
+                        insertEmployee();                
                       }
                       setEmployees({
                         name:"",

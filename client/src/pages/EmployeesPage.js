@@ -11,7 +11,6 @@ function EmployeesPage() {
             await loadEmployees()
         }
         listEmployees();
-        console.log(loadEmployees())
     },[]);
 
     function renderMain(){
