@@ -5,7 +5,7 @@ config();
 // process  => Variable global de node
 // env      => Almacena todas las varibles que tiene mi computador 
 // PORT     => Es el nombre de la variable que creamos en el archivo .env 
-export const PORT = process.env.PORT || 3000
+export const PORT = process.env.PORT || 4000
 export const DB_USER= process.env.DB_USER || 'root';
 export const DB_PASSWORD= process.env.DB_PASSWORD || '';
 export const DB_HOST = process.env.DB_HOST || 'localhost';

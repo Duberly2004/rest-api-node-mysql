@@ -6,6 +6,7 @@ function Navbar() {
         <ul>
             <li><Link to={'/rest-api-node-mysql'}>Home</Link></li>
             <li><Link to={'/rest-api-node-mysql/add'}>Add</Link></li>
+            <li><Link to={'/rest-api-node-mysql/employees'}>Employees</Link></li>
         </ul>
     </div>
   )
