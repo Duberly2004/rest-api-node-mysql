@@ -1,14 +1,12 @@
 {
   "files": {
     "main.css": "/rest-api-node-mysql/static/css/main.31d6cfe0.css",
-    "main.js": "/rest-api-node-mysql/static/js/main.5b8c4fe6.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/rest-api-node-mysql/static/js/787.c4e7f8f9.chunk.js",
+    "main.js": "/rest-api-node-mysql/static/js/main.ffc35c7a.js",
     "index.html": "/rest-api-node-mysql/index.html",
-    "main.5b8c4fe6.js.map": "/rest-api-node-mysql/static/js/main.5b8c4fe6.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/rest-api-node-mysql/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.ffc35c7a.js.map": "/rest-api-node-mysql/static/js/main.ffc35c7a.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.5b8c4fe6.js"
+    "static/js/main.ffc35c7a.js"
   ]
 }
