@@ -9,7 +9,7 @@ function Navbar() {
         <div class="container-fluid">
           
           <img src={imgNaruto} class="m-2 circle" width="60" height="110" ></img>
-          <Link to={"/rest-api-node-mysql"} className="navbar-brand text-white">Crud Du</Link>
+          <Link to={"/rest-api-node-mysql"} className="navbar-brand text-white">API REST Du</Link>
             <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <img width="80" height="50" src={hamburgerMenu} alt="" />
             </button>
